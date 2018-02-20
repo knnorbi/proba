@@ -10,6 +10,8 @@ namespace negyszogek
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Szia User!");
+            
             Negyszog negyszog1 = new Negyszog(1, 2, 3, 4);
             Console.WriteLine(negyszog1);
             Console.WriteLine(negyszog1.Kerulet);
